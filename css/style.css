@@ -1,0 +1,40 @@
+@import "normalize.css";
+@import "header.css";
+@import "main.css";
+@import "price.css";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #6CC0AE;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
+p{
+    font-family: 'Pacifico',sans-serif;
+}
+h2,h3,a,span{
+    font-family: 'Lobster',sans-serif;
+}
+ul, ol {
+    list-style: none;
+}
+.session__ul{
+    list-style: disc;
+}
+.main__title {
+    text-align: center;
+    font-size: 36px;
+}
